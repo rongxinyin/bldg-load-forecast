@@ -2,7 +2,7 @@
 from __future__ import division
 """Functions for computing radiation for different idealized skies"""
 
-from .psychrometrics import dew_point_from_db_rh
+from psychrometrics import dew_point_from_db_rh
 
 import math
 try:  # python 2
